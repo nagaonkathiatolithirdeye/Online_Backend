@@ -23,7 +23,8 @@ app.set('trust proxy', 1);
 // ── CORS ──────────────────────────────────────────────────────────────
 const allowedOrigins = [
   'http://localhost:3000',
-  'https://onlinefullstack.netlify.app'
+  'https://onlinefullstack.netlify.app',
+  'https://onlinefrontend.netlify.app'
 ];
 
 app.use(cors({
